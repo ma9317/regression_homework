@@ -1,0 +1,16 @@
+**What I have to do for the assignment**
+Pick a dataset with a numerical value I want to predict (the target).
+Load the dataset and look at it to understand the columns and basic structure.
+Clean the data by handling missing values and fixing any obvious issues.
+Separate the target column from the rest of the features.
+Identify which columns are numerical and which are categorical.
+Convert categorical columns into numerical format so models can use them (this is where OneHotEncoder comes in).
+Scale or normalize numerical features so they are on similar ranges.
+Create any useful new features that might help prediction.
+Split the data into a training set and a test set.
+Set up a pipeline that combines all preprocessing steps with a model.
+Train a simple baseline regression model on the training data.
+Evaluate each model using the test set to see how well it predicts.
+Compare model results and choose the best-performing one.
+Analyze which features were most important for the best model.
+Write a short summary explaining what worked, what didn’t, and which features mattered most.
